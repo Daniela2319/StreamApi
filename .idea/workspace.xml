@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d49aff95-0008-4621-8244-407dc59c8e80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stream/ComparatorOrdemNomeContato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stream/ComparatorOrdemNumerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stream/Contato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stream/RefatoracaoOrdenacaoMap.java" afterDir="false" />
+    <list default="true" id="d49aff95-0008-4621-8244-407dc59c8e80" name="Changes" comment="Stream Api exercicios">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stream/model/ExerciciosStreamAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stream/ComparatorOrdemNumerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stream/ComparatorOrdemNumerica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,10 +46,26 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ExerciciosStreamAPI">
+    <configuration name="ExerciciosStreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.model.ExerciciosStreamAPI" />
+      <module name="StreamApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RefatoracaoOrdenacaoMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.RefatoracaoOrdenacaoMap" />
       <module name="StreamApi" />
@@ -71,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExerciciosStreamAPI" />
         <item itemvalue="Application.RefatoracaoOrdenacaoMap" />
       </list>
     </recent_temporary>
@@ -84,6 +95,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667858779850</updated>
     </task>
+    <task id="LOCAL-00001" summary="Stream Api exercicios">
+      <created>1667864760765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667864760766</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,5 +115,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Stream Api exercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream Api exercicios" />
   </component>
 </project>
