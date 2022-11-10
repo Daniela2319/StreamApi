@@ -10,6 +10,11 @@ A utilidade de utilizar é ter acesso a métodos bem úteis que facilitarão a r
 programação além de melhorar o nível do código.
 
 
+![image](https://user-images.githubusercontent.com/106537496/201097308-fbbd5a29-8b24-4973-9860-dcc6ab847e48.png)
+
+Fonte:  [Pdf](https://pdf.co/blog/java-streams)
+
+
 
 
 
