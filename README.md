@@ -14,6 +14,24 @@ programação além de melhorar o nível do código.
 
 Fonte:  [Pdf](https://pdf.co/blog/java-streams)
 
+## Métodos
+
+**allMatch(Predicate<? super T> predicate)**: Retorna se todos os elementos deste fluxo correspondem ao predicado fornecido.
+
+**anyMatch(Predicate<? super T> predicate)**: Retorna se algum elemento deste fluxo correspond ao predicado fornecido.
+
+**builder()**: Retorna um construtor para um arquivo _Stream_.
+
+**collect(collector<? super T,A,R> collector)**: Executa uma operação de redução mutável nos elementos desse fluxo usando um arquivo Collector.
+
+**conca(Stram<? extends T> a, Stream<? extends T> b)**: Cria um fluxo concatenado cujo os elementos são todos os elementos do primeiro fluxo seguidos por 
+todos os elementos dos segundo fluxo.
+
+**count()**: Retorna a contagem de elementos neste fluxo.
+ 
+                                                       📌 em andamento
+
+
 
 
 
