@@ -28,8 +28,24 @@ Fonte:  [Pdf](https://pdf.co/blog/java-streams)
 todos os elementos dos segundo fluxo.
 
 **count()**: Retorna a contagem de elementos neste fluxo.
+
+empty(): Retorna um sequencial vazio _Stream_.
+
+filter(Predicate<? super T> predicate): Retorna um fluxo que consiste nos elementos desse fluxo que correspondem ao predicado fornecido.
+
+findAny(): Retorna uma Optional descrição de algum elemento do fluxo ou um vazio Optional se o fluxo estiver vazio.
+
+findFirst(): Retorna uma Optional descrição do primeiro elemento deste fluxo ou um vazio Optional se o fluxo estiver vazio.
+
+flatMap(Function<? super T, ? extends Stream<? extends R>> mapper): Retorna um fluxo que consiste nos resultados da substituição de cada elemento
+desse fluxo pelo conteúdo de um fluxo mapeado produzido pela aplicação da função de mapeamento fornecida a cada elemento.
+
+flatMapToDouble(Function<? super T,? extends DoubleStream> mapper): Retorna um DoubleStream resultado da substituição de cada elemento desse fluxo pelo 
+de um fluxo mapeado produzido pela aplicação da função de mapeamento fornecida a cada elemento.
+
  
-                                                       📌 em andamento
+ 
+                                                       
 
 
 
