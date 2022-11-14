@@ -43,6 +43,17 @@ desse fluxo pelo conteúdo de um fluxo mapeado produzido pela aplicação da fun
 **flatMapToDouble(Function<? super T,? extends DoubleStream> mapper)**: Retorna um _DoubleStream_ resultado da substituição de cada elemento desse fluxo pelo 
 de um fluxo mapeado produzido pela aplicação da função de mapeamento fornecida a cada elemento.
 
+**flatMapToInt(Function<? super T, ? extends IntStrem> mapper)**: Retorna um IntStream resultado da substituição de cada elemento desse fluxo pelo contéudo de 
+um fluxo mapeado produzido pela aplicação da função de mapeamento fornecida a cada elemento.
+
+**flatMapToLong(Function<? super T, ? extends LongStrem> mapper)**: Retorna um LongStrem de substituição de cada elemento desse fluxo pelo contéudo de um fluxo
+mapeado produzido pela aplicação da função de mapeamento fornecida a cada elemento.
+
+**forEach(Consumer<? super T> action): Executa uma ação para cada elemento deste fluxo.
+
+**forEachOrdered(Consumer<? super T> action): Executa uma ação para cada elemento deste fluxo, na ordem de encontro do fluxo se o fluxo tiver uma ordem de encontro
+definida.
+
  
  
                                                        
