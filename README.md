@@ -49,9 +49,9 @@ um fluxo mapeado produzido pela aplicação da função de mapeamento fornecida 
 **flatMapToLong(Function<? super T, ? extends LongStrem> mapper)**: Retorna um LongStrem de substituição de cada elemento desse fluxo pelo contéudo de um fluxo
 mapeado produzido pela aplicação da função de mapeamento fornecida a cada elemento.
 
-**forEach(Consumer<? super T> action): Executa uma ação para cada elemento deste fluxo.
+**forEach(Consumer<? super T> action)**: Executa uma ação para cada elemento deste fluxo.
 
-**forEachOrdered(Consumer<? super T> action): Executa uma ação para cada elemento deste fluxo, na ordem de encontro do fluxo se o fluxo tiver uma ordem de encontro
+**forEachOrdered(Consumer<? super T> action)**: Executa uma ação para cada elemento deste fluxo, na ordem de encontro do fluxo se o fluxo tiver uma ordem de encontro
 definida.
 
  
